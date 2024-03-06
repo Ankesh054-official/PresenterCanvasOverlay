@@ -46,4 +46,4 @@ The target audience includes developers, researchers, and enthusiasts interested
 ## Guides:
 
 1. ##### Setup Guide [[Here](./docs/guides/markdowns/projectSetup.md)].
-2. ##### Read Project Structure Guide. [[Here](.docs/guides/markdowns/dirStructure.md)]
+2. ##### Read Project Structure Guide. [[Here](./docs/guides/markdowns/dirStructure.md)]
