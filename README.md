@@ -1,4 +1,4 @@
- <p style="display:flex; flex-direction:row;justify-content:center;align-items:center;content-align:center;"><img style="width:25%;" src="./assets/imgs/logo.png"></p>
+ <p style="display:flex; flex-direction:row;justify-content:center;align-items:center;"><img style="width:25%;" src="./assets/imgs/logo.png"></p>
 
 # PROJCT NAME: `PresenterCanvasOverlay`
 >  **PROJECT DESCRIPTION:**
