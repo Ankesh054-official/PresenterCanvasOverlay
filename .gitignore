@@ -1,0 +1,30 @@
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+env.bak/
+env1/
+venv1/
+myenv/
+.venv/
+.venv3.8/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Dependency management
+pip-selfcheck.json
+
+# Local development settings
+.env
