@@ -33,6 +33,14 @@
         - `api/`: Documentation for APIs and interfaces.
         - `guides/`: How-to guides and tutorials.
         - `architecture/`: Architecture diagrams and explanations.
+        > **`Below Directories and files are automatically created by sphinx.`**
+        - `build/`: An empty directory (for now) that will hold the rendered documentation.
+        - `source/`:
+            - `conf.py`: A Python script holding the configuration of the Sphinx project. It contains the project name and release you specified to sphinx-quickstart, as well as some extra configuration keys.
+            - `index.rst`: The root document of the project, which serves as welcome page and contains the root of the “table of contents tree” (or toctree).
+            - `_static/`:
+            - `_templates/`:
+        - `make.bat & Makefile`: Convenience scripts to simplify some common Sphinx operations, such as rendering the content.
         - `...`: Additional directories for specific documentation needs.
 
 5. **Build and Configuration:**
