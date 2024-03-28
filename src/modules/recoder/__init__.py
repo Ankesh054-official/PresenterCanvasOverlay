@@ -1,6 +1,7 @@
 """Imports all sub and sibling modules here."""
 
 from .camera import Camera
+from .window import Window
 
 
-all = [Camera]
+all_modules = [Camera, Window]
