@@ -71,8 +71,14 @@ class Camera:
 
                 # Get the frame from the queue
                 frame = self.frame_data.get(timeout=1)
-                cv2.imshow("Camera", frame)
-                cv2.waitKey(1)
+
+                #  Show the frame
+                cv2.imshow("Camera preview", frame)
+
+                # if the user clicks q, it exits
+                if cv2.waitKey(1) == ord("q"):
+                    self.is_running = False
+                    break
 
             except queue.Empty:
                 continue
